@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: 123
+    url: jdbc:h2:mem:restdb
+    username: emad
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    properties:
+      hibernate:
+        format_sql: true
+        hbm2ddl:
+          auto: create-drop
+        show_sql: true
+server:
+  port: 8080
