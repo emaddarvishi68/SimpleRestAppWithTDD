@@ -23,11 +23,11 @@ public class Car {
     private String type;
 
     public enum CarType{
-        HYBRID;
+        HYBRID,NOT_HYBRID;
     }
 
     public enum CarName{
-        PRIUS;
+        PRIUS,COROLLA,CAMRY;
     }
 
 }
